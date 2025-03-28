@@ -4,6 +4,9 @@
     box-sizing: border-box;
     list-style: none;
 }
+a {
+    text-decoration: none;
+}
 .header-container {
     width: 100%;
     margin: auto;
@@ -234,6 +237,9 @@ ul .dropdown-menu {
 .read-more {
     color: rgb(16, 86, 38);
     font-weight: bold;
+    position: absolute;
+    z-index: 100000;
+    left: 40%;
 }
 .featured-container {
     margin: auto;
@@ -345,6 +351,13 @@ ul .dropdown-menu {
     font-size: xx-large;
     float: left;
     color:  rgb(3, 43, 16);
+}
+.appear-icon {
+    position: absolute;
+    z-index: 100000;
+}
+.offer-description {
+    margin-left: 50px;
 }
 .offer-description h3{
     font-size: x-large;
@@ -792,9 +805,12 @@ ul .dropdown-menu {
 
 }
 .news-member-social span {
-    margin-right: 20px;
+    margin-left: 30px;
 }
 .news-member-social {
+    margin: auto;
+    width: 200px;
+    text-align: center;
     margin-bottom: 15px;
 }
 .news-member-social i {
@@ -828,6 +844,10 @@ ul .dropdown-menu {
     font-weight: 600;
     text-align: center;
     font-size: large;
+    position: absolute;
+    z-index: 100000;
+    left: 30%;
+
 }
 .news-item::after {
     content: "";
@@ -844,30 +864,6 @@ ul .dropdown-menu {
     width: 100%;
     height: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .social-media-container {
     width: 100%;
     height: 50vh;
@@ -901,4 +897,13 @@ ul .dropdown-menu {
 }
 .social-icons i:hover {
     background: rgb(18, 138, 213);
+}
+.appear {
+    position: absolute;
+    z-index: 100000;
+    left: -17px;
+}
+.link-appear {
+    position: relative;
+    
 }
